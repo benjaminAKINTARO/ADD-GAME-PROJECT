@@ -1,0 +1,70 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  background-color: #7777;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  font-size: 2rem;
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  font-size: 3rem;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.guess {
+  margin-left: 40%;
+  font-size: 4rem;
+  text-align: center;
+  background-color: black;
+  color: wheat;
+  width: 20%;
+}
+
+.message {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.score {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game-zone {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+#number {
+  height: 6rem;
+  font-size: 3rem;
+  width: 6rem;
+  margin-bottom: 1rem;
+}
+
+.score-points {
+  font-size: 3rem;
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}

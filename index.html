@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>toggle</title>
+  </head>
+  <body>
+    <header class="title">START YOUR GAME</header>
+    <section class="intro">
+      <button class="btn again hidden">AGAIN</button>
+      <p class="count">2* your number + random number =100</p>
+    </section>
+
+    <div class="guess">?</div>
+    <div class="message">keep pushing</div>
+
+    <section class="score">
+      <div class="game-zone">
+        <input type="number" id="number" class="number" />
+        <button class="btn check">check</button>
+      </div>
+      <button class="btn next hidden">NEXT</button>
+
+      <div class="score-points">
+        <p class="title">score:</p>
+        <p class="points">0</p>
+      </div>
+
+      <div class="score-points">
+        <p class="title">High score:</p>
+        <p class="points high">0</p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
